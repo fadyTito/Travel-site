@@ -45,7 +45,7 @@
     <div class="flex-wrapper flex-wrapper--centered flex-wrapper--b-margin">
       <img sizes="(min-width: 970px) 976px, 100vw" srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
     </div>
-    <div class="flex-wrapper flex-wrapper--gutters-between">
+    <div class="flex-wrapper flex-wrapper--col-until-medium flex-wrapper--gutters-between">
       <picture class="flex-wrapper__item--oneThird">
         <source sizes="404px" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
         <source sizes="320px" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
@@ -64,7 +64,7 @@
   <section id="features" class="wrapper page-section--blue page-section features">
     <h2 class="section-title"><img src="assets/images/icons/star.svg" class="section-title__icon">Our <strong>Features</strong></h2>
 
-    <div class="flex-wrapper flex-wrapper--gutters-between flex-wrapper--b-margin">
+    <div class="flex-wrapper flex-wrapper--col-until-medium flex-wrapper--gutters-between flex-wrapper--b-margin">
       <div class="feature-item flex-wrapper__item--half generic-content generic-content--centered">
         <img src="assets/images/icons/rain.svg" class="feature-item__icon">
         <h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
@@ -78,7 +78,7 @@
       </div>
       
     </div>
-    <div class="flex-wrapper flex-wrapper--gutters-between">
+    <div class="flex-wrapper flex-wrapper--col-until-medium flex-wrapper--gutters-between">
       <div class="feature-item flex-wrapper__item--half generic-content generic-content--centered">
         <img src="assets/images/icons/globe.svg" class="feature-item__icon">
         <h3 class="feature-item__title">Global Guides</h3>
@@ -94,24 +94,32 @@
     
   </section>
 
-  <section id="testimonials" class="wrapper page-section">
-    <img src="assets/images/icons/comment.svg">
-    <h2>Real Testimonials</h2>
+  <section id="testimonials" class="wrapper wrapper--no-padding-until-medium page-section page-section--testimonials">
+    <h2 class="section-title section-title--blue"><img src="assets/images/icons/comment.svg" class="section-title__icon">Real <strong>Testimonials</strong></h2>
 
-    <img src="assets/images/testimonial-jane.jpg">
-    <h3>Jane Doe</h3>
-    <h3>9 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
-
-    <img src="assets/images/testimonial-john.jpg">
-    <h3>John Smith</h3>
-    <h3>4 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
-
-    <img src="assets/images/testimonial-cat.jpg">
-    <h3>Cat McKitty</h3>
-    <h3>6 Time Escaper</h3>
-    <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+    <div class="flex-wrapper flex-wrapper--col-until-large flex-wrapper--gutters-between">
+      <div class="testimonial-item flex-wrapper__item--oneThird generic-content generic-content--no-b-margin">
+        <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe">
+        <h3 class="testimonial-item__title">Jane Doe</h3>
+        <h4 class="testimonial-item__subtitle">9 Time Escaper</h4>
+        <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;</p>
+      </div>
+      
+      <div class="testimonial-item flex-wrapper__item--oneThird generic-content generic-content--no-b-margin">
+        <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="John Smith">
+        <h3 class="testimonial-item__title">John Smith</h3>
+        <h4 class="testimonial-item__subtitle">4 Time Escaper</h4>
+        <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
+      </div>
+      
+      <div class="testimonial-item flex-wrapper__item--oneThird generic-content generic-content--no-b-margin">
+        <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
+        <h3 class="testimonial-item__title">Cat McKitty</h3>
+        <h4 class="testimonial-item__subtitle">6 Time Escaper</h4>
+        <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+      </div>
+    </div>
+    
   </section>
 
   <footer>

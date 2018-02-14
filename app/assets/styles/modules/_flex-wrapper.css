@@ -2,8 +2,16 @@
     display: flex;
     flex-direction: column;
 
-    @mixin atMedium {
-        flex-direction: row;
+    &--col-until-medium {
+        @mixin atMedium {
+            flex-direction: row;
+        }
+    }
+
+    &--col-until-large {
+        @mixin atLarge {
+            flex-direction: row;
+        }
     }
 
     &--centered {

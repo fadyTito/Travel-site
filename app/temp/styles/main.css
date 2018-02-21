@@ -929,7 +929,7 @@ a {
   }
 
 .header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 2;
   padding-top: 10px;

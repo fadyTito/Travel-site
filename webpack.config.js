@@ -1,10 +1,13 @@
 var path = require('path');
 
 module.exports = {
-  entry: "./app/assets/scripts/main.js",
+  entry: {
+    main: "./app/assets/scripts/main.js",
+    vendors: "./app/assets/scripts/vendors.js"
+  },
   output: {
     path: path.resolve(__dirname, "./app/temp/scripts"), /* l webpack bib2a 3aiz l directory absolute msh relative*/
-    filename: "main.js"
+    filename: "[name].js"
   },
   module: {
     loaders: [

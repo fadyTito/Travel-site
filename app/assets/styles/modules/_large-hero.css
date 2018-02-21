@@ -1,4 +1,5 @@
 .large-hero {
+    width: 110;
     position: relative;
     border-bottom: 10px solid $mainBlue;
 

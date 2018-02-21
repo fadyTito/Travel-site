@@ -4,9 +4,17 @@
     text-decoration: none;
     padding: .75rem 1.2rem;
     display: inline-block;
+    transition: background-color 0.3s ease-out;
+  
+    &:hover, &:active {
+      background-color: #2a4c66;
+    }
   
     &--orange {
       background-color: $mainOrange;
+      &:hover, &:active {
+        background-color: #d28d33;
+      }
     }
   
     &--large {

@@ -588,7 +588,7 @@ a {
       background-color: #d59541;
     }
 
-.btn--orange:hover, .btn--orange:active {
+.btn--orange:hover {
         background-color: #d28d33;
       }
 

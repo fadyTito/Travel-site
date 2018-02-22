@@ -11117,8 +11117,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var mobileMenu = new _MobileMenu2.default();
 var stickyHeader = new _StickyHeader2.default((0, _jquery2.default)(".large-hero__content__title"));
-var revealFeatureItem = new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "50%");
-var revealTestimonialItem = new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial-item"), "70%");
+var revealFeatureItem = new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
+var revealTestimonialItem = new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial-item"), "60%");
 var modal = new _Modal2.default();
 
 /***/ }),

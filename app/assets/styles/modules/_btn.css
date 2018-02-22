@@ -12,7 +12,7 @@
   
     &--orange {
       background-color: $mainOrange;
-      &:hover, &:active {
+      &:hover {
         background-color: #d28d33;
       }
     }

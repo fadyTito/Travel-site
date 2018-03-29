@@ -11,21 +11,20 @@
     @mixin atSmall {
         font-size: 3.75rem;
         margin-bottom: 5rem;
+        margin-left: -7.5rem;
       }
     
     &__icon {
+      transform: scale(.5);
       display: block;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: .6rem;
   
       @mixin atSmall {
-        margin-right: 1.5rem;
-        margin-left: 0;
-        margin-bottom: 0;
+        margin-right: -6rem;
+        margin-bottom: -3rem;
         display: inline-block;
-        position: relative;
-        top: 8px
       }
     }
 

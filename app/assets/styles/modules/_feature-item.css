@@ -8,12 +8,14 @@
 
   
     &__icon {
+      transform: scale(.4);
       display: block;
       margin: 0 auto;
   
       @mixin atSmall {
         position: absolute;
-        left: 0;
+        left: -7.5rem;
+        top: -2.5rem;
       }
     }
   
